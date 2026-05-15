@@ -10,6 +10,7 @@
 # Version: v1
 #################################
 
+set -x #debug mode
 echo "checking the disk space"
 df -h
 
