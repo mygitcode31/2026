@@ -19,3 +19,11 @@ free -g
 
 echo "checking the number of CPU"
 nproc
+
+
+
+# some commands:
+# ps -ef => check the process of running system
+# grep "error" => seraches words related that
+# | => pipe (output of the first command and send it to the second command)  ps -ef | grep "error"
+
