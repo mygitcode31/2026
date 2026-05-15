@@ -1,3 +1,5 @@
+##My Automation Bash Script
+'''bash
 #!/bin/bash
 
 echo "Welcome in Automation"
@@ -7,3 +9,4 @@ mkdir myautomation
 
 echo "Directory Created successfully"
 ls -l
+'''
