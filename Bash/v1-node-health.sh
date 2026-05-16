@@ -11,16 +11,17 @@
 #################################
 
 set -x #debug mode
-echo "checking the disk space"
+# no need of echo "checking the disk space"
+set -e  # exit the script when there is an error
+set -o pipefail
+
 df -h
 
-echo "checking the memory"
 free -g
 
-echo "checking the number of CPU"
 nproc
 
-
+ps -ef | grep amazon | awk -F" " '{print $4}'
 
 # some commands:
 # ps -ef => check the process of running system
