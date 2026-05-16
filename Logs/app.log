@@ -1,0 +1,18 @@
+2024-01-15 08:23:11 INFO  Server started on port 8000
+2024-01-15 08:23:12 INFO  Database connection established
+2024-01-15 08:23:45 INFO  User 'naresh' logged in successfully
+2024-01-15 08:24:10 WARNING  High memory usage detected: 85%
+2024-01-15 08:24:33 INFO  GET /api/todos - 200 OK
+2024-01-15 08:25:01 ERROR  Database connection timeout after 30s
+2024-01-15 08:25:02 ERROR  Failed to fetch todos for user 'naresh'
+2024-01-15 08:25:03 INFO  Retrying database connection...
+2024-01-15 08:25:05 INFO  Database connection re-established
+2024-01-15 08:26:44 WARNING  Disk space running low: 90% used
+2024-01-15 08:27:12 ERROR  FileNotFoundError: config.yaml not found
+2024-01-15 08:27:55 INFO  GET /api/todos - 200 OK
+2024-01-15 08:28:30 ERROR  Permission denied: cannot write to /var/log/app
+2024-01-15 08:29:10 INFO  User 'naresh' logged out
+2024-01-15 08:30:00 INFO  Scheduled backup started
+2024-01-15 08:30:45 WARNING  Backup taking longer than expected
+2024-01-15 08:31:00 ERROR  Backup failed: disk quota exceeded
+2024-01-15 08:31:01 INFO  Server shutting down gracefully
